@@ -18,7 +18,7 @@ def function(num):
     s = 0
     for i in num:
         s += int(i)**len(num)
-    return ("It is a Amstrong" if int(num) == s else "Not a amstrong")
+    return ("It is a Armstrong" if int(num) == s else "Not a armstrong")
 
 
 num = input("enter a number = ")
